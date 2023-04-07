@@ -49,6 +49,7 @@ aside{
 #barra-menu ul li{
     list-style: none;
     padding: 15px;
+    font-family: "Inter";
 }
 
 #barra-menu ul li a{
@@ -62,7 +63,7 @@ aside{
     border: solid 1px #2ecc71;
     padding: 8px;
     border-radius: 15px;
-    background: #2ecc71;
+    background: #276942;
 }
 
 .c-icon{
@@ -126,7 +127,7 @@ aside{
     margin-top: 50px;
     padding: 8px 5px;
     font-size: 20px;
-    background-color: #5CBD85;
+    background-color: #358858;
     border-radius: 50px;
     color: #FBF7F7;
     font-family: 'Inter', sans-serif;
@@ -190,8 +191,6 @@ aside{
     }
 }
 
-
-
 /*============About===========*/
 
 .c-sobre{
@@ -203,12 +202,15 @@ aside{
 }
 
 .image video{
+    margin-top: 55%;
     width: 350px;
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
 }
 
 .Sobre-mim{
+    margin-right: 10%;
+    margin-top: 9%;
     padding: 0px 200px 0px 0px;
 }
 
@@ -284,29 +286,33 @@ aside{
 .Container{
     width: 100%;
     background-color: #f3eeee;
-    padding: 10px;
+    padding: 1px;
 }
 
 .Container h1{
+    margin-left: 1%;
     color: #000000;
     text-align: center;
     font-size: 70px;
     font-family: "Inria Sans";
     font-weight: bold;
-    padding-top: 12%
+    padding-top: 15px;
+    justify-content: center;
+    display:flex;
 }
 
 .Container p{
     text-align: center;
     font-family: "Inria Sans";
     color: #685b5b;
-    margin-top: 25px;
+    margin-top: 10px;
+    font-size: 23px;
 }
 
 .c-card{
     display: flex;
     justify-content: space-around;
-    margin-top: 35%;
+    margin-top: 5%;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -329,6 +335,7 @@ aside{
     margin-top: 5%;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 5%;
 }
 
 .card h3{
@@ -358,5 +365,6 @@ aside{
     .c-card-2{
         margin-top: ;
     }
-    
+
 }
+
